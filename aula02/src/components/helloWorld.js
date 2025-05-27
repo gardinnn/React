@@ -1,5 +1,5 @@
-import frase from  "./frase"
-function helloWorld(){
+import Frase from  "./Frase"
+function HelloWorld(){
  return(
     <div>
       <frase/>
@@ -9,4 +9,4 @@ function helloWorld(){
  )
 }
 
-export default helloWorld
+export default HelloWorld
