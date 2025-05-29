@@ -1,7 +1,6 @@
 import './App.css';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/pessoa';
-import Frase from './components/Frase'
 import List from './components/list';
 
 
@@ -14,7 +13,7 @@ const nome = 'jesus'
       <SayMyName nome = 'gabriel'/>
       <SayMyName nome = 'Joao'/>
       <SayMyName nome = {nome}/>
-      <Pessoa nome = ' Paulo' idade = ' 40' profissao = ' Apóstolo de Cristo' foto = "https://via.placeholder.com" />
+      <Pessoa nome = ' Paulo' idade = ' 40' profissao = ' Apóstolo de Cristo'  />
       <List/>
     </div>
   );
