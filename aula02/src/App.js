@@ -36,21 +36,21 @@ function App() {
       <Saudacao nome = {nome}/> */
     // </div>
     
-      <Router>
-        <NavBar/>
-        <Switch>
-          <Route exact path= "/">
-            <Home/>
-          </Route>
-          <Route path= "/empresa">
-            <Empresa/>
-          </Route>
-          <Route path= "/contato">
-            <Contato/>
-          </Route>
-        </Switch>
+      // <Router>
+      //   <NavBar/>
+      //   <Switch>
+      //     <Route exact path= "/">
+      //       <Home/>
+      //     </Route>
+      //     <Route path= "/empresa">
+      //       <Empresa/>
+      //     </Route>
+      //     <Route path= "/contato">
+      //       <Contato/>
+      //     </Route>
+      //   </Switch>
         <Footer/>
-      </Router>
+      // </Router>
       
     
   );
